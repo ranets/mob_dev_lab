@@ -1,11 +1,11 @@
 {
-  "auth": [
+  "user": [
     { "id": 1, "login": "admin", "pass": "admin" },
     { "id": 2, "login": "admin2", "pass": "admin" },
     { "id": 3, "login": "admin3", "pass": "admin" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment"},
-    { "id": 2, "body": "some comment2"}
+    { "id": 1, "body": "some comment", "user_id" : "1"},
+    { "id": 2, "body": "some comment2", "user_id" : "2"}
   ]
 }
